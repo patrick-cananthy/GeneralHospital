@@ -68,6 +68,39 @@
         $("#video").attr('src', $videoSrc);
     })
 
+    //Slider
+    $(document).ready(function() {
+    $("#slider").load("include/slider.html");
+})
+ //footer
+    $(document).ready(function() {
+    $("#footer").load("include/footer.html");
+})
+
+
+
+// Scroll Animation
+$(document).ready(function () {
+
+    const $sections = $(".Abt,.firstgalla,.secondgalla,.thirdgalla,.about-overview");
+
+    function checkInView() {
+        const triggerHeight = $(window).height() / 1.3;
+
+        $sections.each(function () {
+            const sectionTop = $(this).offset().top - $(window).scrollTop();
+
+            if (sectionTop < triggerHeight) {
+                $(this).addClass("show");
+            }
+        });
+    }
+
+    $(window).on("scroll", checkInView);
+    checkInView(); // Initial check
+});
+
+
 
     // Testimonial carousel
     $(".testimonial-carousel").owlCarousel({
@@ -84,4 +117,8 @@
     });
     
 })(jQuery);
+
+
+
+
 

@@ -16,6 +16,18 @@
 }
 
 
+.carousel-caption p {
+    font-size: 1.5rem; 
+}
+
+
+.header-carousel .carousel-item img {
+    height: 700px;  
+    object-fit: cover;
+}
+
+
+
 
 
 
@@ -97,7 +109,7 @@
 
 /*** Brand ***/
 .navbar{
-    background-color: #ADF802;
+    background-color: white;
 }
 
 /*** Navbar ***/
@@ -219,7 +231,24 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/testimonial.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/Specialized/Specialized.jpeg) center center no-repeat;
+    background-size: cover;
+}
+.diagnostic {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/Diagnostic/diagnostic.jpeg) center center no-repeat;
+    background-size: cover;
+}
+.general{
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/GeneralCare/Historia\ Clinica\ Electronica\ \(Electronic\ Medical….jpeg) center center no-repeat;
+    background-size: cover;
+}
+.corporate{
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/Insurance.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+.gallery{
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/Gallery/gallert.jpeg) center center no-repeat;
     background-size: cover;
 }
 
@@ -348,7 +377,7 @@
 
 
     /* Slider */
-
+/* 
      .slidee img {
         width: 100%;
         transition: transform 0.3s;
@@ -389,7 +418,7 @@
 
 /* Gradient Shadow for Slider */
 
-.slider::before,
+/* .slider::before,
 .slider::after {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     content: '';
@@ -408,4 +437,446 @@
     right: 0;
     top: 0;
     transform: rotate(180deg);
+}  */
+
+
+/*** Management***/
+.container-management {
+    position: relative;
 }
+
+.container-management::before {
+    position: absolute;
+    content: '';
+    background: var(--bs-light);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    clip-path: polygon(0 70%, 100% 30%, 100% 100%, 0% 100%);
+    z-index: -1;
+}
+
+.management-item {
+    background: var(--bs-white);
+    box-shadow: 0 0 45px rgba(0, 0, 0, .05);
+}
+
+.management-item .management-social {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: .5s;
+    background: rgba(0, 0, 0, .50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.management-item:hover .management-social {
+    width: 100%;
+    left: 0;
+}
+
+.management-item .management-social .btn {
+    opacity: 0;
+    transition: .5s;
+}
+
+.management-item:hover .management-social .btn {
+    opacity: 1;
+}
+
+/**Scroll**/
+
+
+.Abt, .firstgalla,.secondgalla,.thirdgalla,.about-overview{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+/** Footer**/
+/* Footer*/
+    /*Footer Style*/
+    
+    .footer {
+        background-color: black;
+        padding-top: 3%;
+    }
+    
+    .footer .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .footer-col {
+        width: 30%;
+        padding: 0 15px;
+    }
+    
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: sticky;
+    }
+    
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    
+    .footer-col ul li i {
+        float: left;
+        margin-right: 10px;
+        font-size: larger;
+        color: #e91e63;
+    }
+    
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover {
+        color: #ffffff;
+        padding-left: 10px;
+    }
+
+
+     @media (max-width: 768px) {
+       
+        .footer-col {
+            padding: 5% !important;
+            width: 100% !important;
+            margin-bottom: 30px !important;
+        }
+    }
+    
+   
+    
+   
+    
+    @media (max-width: 992px) {
+       
+        .footer-col {
+            padding: 0%;
+            width: 30%;
+            margin-bottom: 30px;
+        }
+       
+    }
+
+
+    /*Corportae*/
+    .gallery-container {
+        padding-left: 100%;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 1200px;
+    }
+    
+    .gallery-item {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    
+    .dnp {
+        padding-top: 20px;
+    }
+
+    .about-overview {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        gap: 20px;
+        background-color: #ffffff;
+    }
+    
+    .about-content {
+        flex: 1;
+    }
+    
+    .about-image {
+        flex: 1;
+    }
+    
+    .about-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+
+    /*Gallery*/
+    .containe {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 250px;
+        grid-gap: 10px;
+    }
+    
+    .containe .items {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        border-radius: 10px;
+        background-position: center !important;
+        display: flex;
+        justify-content: end;
+        align-items: start;
+        padding: 0px 0px 10px 10px;
+        flex-direction: column;
+        color: #fff;
+    }
+    
+    .containe .items h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 3px;
+    }
+    
+    .containe .items p {
+        font-size: 17px;
+        font-weight: 300;
+        color: #fff;
+    }
+    
+    .containe .item1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/accidentcenter.jpg);
+    }
+    
+    .containe .item2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/AdultEmergency.JPG);
+        grid-row: span 2;
+    }
+    
+    .containe .item3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/ANC\ familyplanning.jpg);
+        grid-column: span 2;
+    }
+    
+    .containe .item4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Antenetal.jpg);
+    }
+    
+    .containe .item5 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Dental&Eye.jpg);
+    }
+    
+    .containe .item6 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/femaleMedical.jpg);
+        grid-row: span 2;
+    }
+    
+    .containe .item7 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/FemaleSurgical.jpg);
+        grid-row: span 2;
+    }
+    
+    .containe .item8 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/ICU.jpg);
+        grid-column: span 2;
+    }
+    
+    .containe .item9 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/IDC.jpg);
+    }
+    
+    .containe .item10 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/WellnessClinic.JPG);
+        grid-column: span 2;
+    }
+    
+    .containe .item11 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/trainingUnit.JPG);
+    }
+    
+    .containe .item12 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/trainingStaff.JPG);
+        grid-row: span 2;
+    }
+    
+    .containe .item13 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/TrainingSession.JPG);
+        grid-column: span 2;
+    }
+    
+    .containe .item14 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/publicHealth.jpg);
+    }
+    
+    .containe .item15 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/PostDelivery.JPG);
+    }
+    
+    .containe .item16 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Physiotherapy.jpg);
+        grid-row: span 2;
+    }
+    
+    .containe .item17 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pharmstaff.JPG);
+        grid-row: span 2;
+    }
+    
+    .containe .item18 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pharm2.JPG);
+        grid-column: span 2;
+    }
+    
+    .containe .item19 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pedicemergency.jpg);
+    }
+    
+    .containe .item20 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pedicAnnex.jpg);
+        grid-column: span 2;
+    }
+    
+    .containe .item21 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/paedicMedical.jpg);
+    }
+    
+    .containe .item22 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/PaedicMedical2.JPG);
+        grid-row: span 2;
+    }
+    
+    .containe .item23 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/OPD2.jpg);
+        grid-column: span 2;
+    }
+    
+    .containe .item24 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/opd1.jpg);
+    }
+    
+    .containe .item25 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/OBS&GYANE\ emergency.jpg);
+    }
+    
+    .containe .item26 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/O&G\ pharma.JPG);
+        grid-row: span 2;
+    }
+    
+    .containe .item27 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Nutrition.jpg);
+        grid-row: span 2;
+    }
+    
+    .containe .item28 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/NICU.jpg);
+        grid-column: span 2;
+    }
+    
+    .containe .item29 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/MTN\ theater.JPG);
+    }
+    
+    .containe .item30 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/MTN\ maternity.JPG);
+        grid-column: span 2;
+    }
+    
+    .firstgalla,
+    .secondgalla,
+    .thirdgalla {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    @media(max-width:991px) {
+        .containe {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .containe .item2,
+        .containe .item6,
+        .containe .item7 {
+            grid-row: auto;
+        }
+        .containe .item3,
+        .containe .item8,
+        .containe .item10 {
+            grid-column: auto;
+        }
+    }
+    
+    @media(max-width:650px) {
+        .containe {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }   
+
+
+    @media (max-width: 768px) {
+        .about-overview {
+            flex-direction: column;
+            text-align: justify;
+        }
+        .about-image,
+        .about-content {
+            max-width: 100%;
+        }
+        .about-header h1 {
+            font-size: 2em;
+        }
+        .about-header p {
+            font-size: 1em;
+        }
+        .our-values {
+            width: 90%;
+        }
+
+        
+        
+        .governance img{
+            height: 200%;
+        }
+    }
