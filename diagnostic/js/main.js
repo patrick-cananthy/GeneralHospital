@@ -77,6 +77,10 @@
     $("#footer").load("include/footer.html");
 })
 
+$(document).ready(function() {
+    $("#carouselMultiItemExample").load("news.html");
+})
+
 
 
 // Scroll Animation

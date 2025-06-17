@@ -129,7 +129,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-success);
+    color: var(--bs-primary);
     
 }
 
@@ -175,7 +175,7 @@
         transition: .5s;
     }
     .dropdown a:hover{
-color: #2e7d32;
+color: var(--bs-primary);
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -183,7 +183,7 @@ color: #2e7d32;
         visibility: visible;
         transition: .5s;
         opacity: 1;
-        color: var(--bs-success);
+        color: var(--bs-primary);
     }
 }
 
@@ -453,7 +453,7 @@ color: #2e7d32;
 .container-management::before {
     position: absolute;
     content: '';
-    background:#2e7d32;
+    background:#9cc0d1;
     width: 100%;
     height: 100%;
     left: 0px;
@@ -693,140 +693,140 @@ color: #2e7d32;
     }
     
     .containe .item1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/accidentcenter.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/accidentcenter.jpg);
     }
     
     .containe .item2 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/AdultEmergency.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/AdultEmergency.JPG);
         grid-row: span 2;
     }
     
     .containe .item3 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/ANC\ familyplanning.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/ANC\ familyplanning.jpg);
         grid-column: span 2;
     }
     
     .containe .item4 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Antenetal.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/Antenetal.jpg);
     }
     
     .containe .item5 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Dental&Eye.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/Dental&Eye.jpg);
     }
     
     .containe .item6 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/femaleMedical.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/femaleMedical.jpg);
         grid-row: span 2;
     }
     
     .containe .item7 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/FemaleSurgical.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/FemaleSurgical.jpg);
         grid-row: span 2;
     }
     
     .containe .item8 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/ICU.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/ICU.jpg);
         grid-column: span 2;
     }
     
     .containe .item9 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/IDC.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/IDC.jpg);
     }
     
     .containe .item10 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/WellnessClinic.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/WellnessClinic.JPG);
         grid-column: span 2;
     }
     
     .containe .item11 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/trainingUnit.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/trainingUnit.JPG);
     }
     
     .containe .item12 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/trainingStaff.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/trainingStaff.JPG);
         grid-row: span 2;
     }
     
     .containe .item13 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/TrainingSession.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/TrainingSession.JPG);
         grid-column: span 2;
     }
     
     .containe .item14 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/publicHealth.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/publicHealth.jpg);
     }
     
     .containe .item15 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/PostDelivery.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/PostDelivery.JPG);
     }
     
     .containe .item16 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Physiotherapy.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/Physiotherapy.jpg);
         grid-row: span 2;
     }
     
     .containe .item17 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pharmstaff.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/pharmstaff.JPG);
         grid-row: span 2;
     }
     
     .containe .item18 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pharm2.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/pharm2.JPG);
         grid-column: span 2;
     }
     
     .containe .item19 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pedicemergency.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/pedicemergency.jpg);
     }
     
     .containe .item20 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/pedicAnnex.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/pedicAnnex.jpg);
         grid-column: span 2;
     }
     
     .containe .item21 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/paedicMedical.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/paedicMedical.jpg);
     }
     
     .containe .item22 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/PaedicMedical2.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/PaedicMedical2.JPG);
         grid-row: span 2;
     }
     
     .containe .item23 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/OPD2.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/OPD2.jpg);
         grid-column: span 2;
     }
     
     .containe .item24 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/opd1.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/opd1.jpg);
     }
     
     .containe .item25 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/OBS&GYANE\ emergency.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/OBS&GYANE\ emergency.jpg);
     }
     
     .containe .item26 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/O&G\ pharma.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/O&G\ pharma.JPG);
         grid-row: span 2;
     }
     
     .containe .item27 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/Nutrition.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/Nutrition.jpg);
         grid-row: span 2;
     }
     
     .containe .item28 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/NICU.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/NICU.jpg);
         grid-column: span 2;
     }
     
     .containe .item29 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/MTN\ theater.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/MTN\ theater.JPG);
     }
     
     .containe .item30 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Gallery/MTN\ maternity.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Gallery/MTN\ maternity.JPG);
         grid-column: span 2;
     }
     
