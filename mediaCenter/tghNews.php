@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +9,9 @@
     <title>Tema General Hospital</title>
     <link href="img/faq-vec2.png" rel="icon">
     <!--CSS Libraries-->
-    <link rel="stylesheet" href="lib/bootstrap-5.3.6-dist/css/bootstrap.min.css">
-      <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+      <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!--Font Libraries-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,25 +24,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/news.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/slider.css">
     
+    <style>
+  /* CSS for hover effect on blog images */
+#blog img {
+  transition: transform 0.3s ease; 
+}
+
+#blog img:hover {
+  transform: scale(1.05); 
+}
+</style>
+
     
 </head>
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner"
+     <!-- Spinner Start -->
+     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <img src="img/logo3.png" width="200px" alt="">
+        <img src="../img/logo3.png" width="200px" alt="">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
      
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 d-none d-lg-flex bg-success">
+    <div class="container-fluid py-2 d-none d-lg-flex fw-bold" style="background-color: #00FF33;">
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div>
@@ -47,7 +62,7 @@
                     <small class="me-3 text-white"><i class="fa fa-clock me-2"></i>24/7</small>
                 </div>
                 <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small  text-white" href="#">Contact</a>
+                    <a class="breadcrumb-item small  text-white" href="contact.html">Contact</a>
                     <a class="breadcrumb-item small text-white" href="FAQ.html">FAQs</a>
                 </nav>
             </div>
@@ -64,15 +79,15 @@
                     <i class="bi bi-telephone-inbound fs-2"></i>
                     <div class="ms-3">
                         <h5 class="text-primary mb-0">Call Now</h5>
-                        <span>+233 556700674</span>
+                        <span>+233 30-330-2696/7 </span>
                     </div>
                 </div>
-                <a href="index.html" class="h2 text-white mb-0 py-2"><img src="img/logo3.png" width="60%" alt="Tema General Hospital Logo"></span></a>
+                <a href="index.html" class="h2 text-white mb-0 py-2"><img src="../img/logo3.png" width="60%" alt="Tema General Hospital Logo"></span></a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2"></i>
                     <div class="ms-3">
                         <h5 class="text-primary mb-0">Mail Now</h5>
-                        <span>patrickcanathy@gmail.com</span>
+                        <span>temageneral.ghgar@ghs.gov.gh </span>
                     </div>
                 </div>
             </div>
@@ -86,7 +101,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-2">
                <a href="index.html" class="navbar-brand d-lg-none">
-                    <h1 class="text-primary m-0">T<span class="text-dark">GH</span></h1>
+                <img src="../img/logo3.png" width="150px"  alt="">
+                   
                 </a>
                 
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
@@ -95,7 +111,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="../index.html" class="nav-item nav-link active">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                             <div class="dropdown-menu bg-light m-0">
@@ -116,14 +132,15 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Media Center</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="news.html" class="dropdown-item">TGH News</a>
-                                <a href="#" class="dropdown-item">Press Release</a>
+                                <a href="#" class="dropdown-item">TGH News</a>
+                                <a href="https://www.moh.gov.gh/category/press-releases/" class="dropdown-item">Press Release</a>
                                 <a href="FAQ.html" class="dropdown-item">FAQs</a>
                                
                             </div>
                         </div>
                         <a href="coporate.html" class="nav-item nav-link">Corporate Insurance</a>
                         <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
                         <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -137,51 +154,89 @@
     </div>
     <!-- Navbar End -->
 
-    <div class="container-fluid page-header py-5 wow fadeIn" style="background-image: url(img/News.jpeg);" data-wow-delay="0.1s">
-        <div class="container text-center py-5 mt-4">
-            <h1 class="display-2 text-white fw-bold mb-3 animated slideInDown">General News</h1>
+  
+<!-- Page Header Start -->
+<div class="container-fluid page-header  news wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5 mt-4" >
+            <h1 class="display-2 text-white fw-bold mb-3 animated slideInDown">Media Center</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item fw-bold"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item fw-bold"><a href="../index.html">Home</a></li>
 
-                    <li class="breadcrumb-item fw-bold" aria-current="page">General News</li>
+                    <li class="breadcrumb-item fw-bold" aria-current="page">TGH News</li>
                 </ol>
             </nav>
         </div>
     </div>
+</div>
+    <!-- Page Header End -->
 
-    <!--News-->
-    
-      
+    <section id="blog" class="blog section-padding content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2 class="abt text-primary">Latest News</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <?php
+                    include("admin/include/db_connection.php");
+                    // Modify SQL query to order by date in descending order
+                    $sql = "SELECT * FROM posts ORDER BY date DESC";
+                    $result = $conn->query($sql);
 
-    
-    
-   <div class=" container"><h1>In progrss</h1></div>
-    
-   
-     <!--Slider Start-->
-  <div id="slider"></div>
-  <!--Slider End-->
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            // Format the date
+                            $formatted_date = date("F j, Y", strtotime($row["date"]));
+                    ?>
+                            <!-- Blog post -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="card h-100">
+                                    <img src="admin/imagess/<?php echo $row["image"]; ?>" class="card-img-top" alt="Blog Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><?php echo $row["title"]; ?></h5>
+                                        <p class="card-text"><?php echo $formatted_date; ?></p>
+                                        <p class="card-text">Written by: <?php echo $row["username"]; ?></p>
+                                        <!-- Read More link with title in URL -->
+                                        <a href="full_blog_post.php?id=<?php echo $row["id"]; ?>&title=<?php echo urlencode($row["title"]); ?>" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                    <?php
+                        }
+                    } else {
+                        echo "0 results";
+                    }
+                    ?>
+                </div>
+            </div>
+        </section>
+
+
+<!--JS Libraries-->
 
   <!--Footer Start-->
   <div id="footer"></div>
   <!--Footer End-->
     
+
     
 <!--JS Libraries-->
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
  
- <script src="lib/wow/wow.min.js"></script>
-     <script src="lib/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
-         <script src="lib/easing/easing.min.js"></script>
-     <script src="lib/waypoints/waypoints.min.js"></script>
-     <script src="lib/counterup/counterup.min.js"></script>
-     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
- 
- <!--JS Script -->
-     <script src="js/main.js"></script>
-     <script src="js/news.js"></script>
-     
- </body>
- </html>
+<script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!--JS Script -->
+    <script src="../js/main.js"></script>
+    
+</body>
+</html>

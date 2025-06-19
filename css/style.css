@@ -261,6 +261,11 @@ color: #00FF33  ;
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/GeneralCare/Historia\ Clinica\ Electronica\ \(Electronic\ Medical….jpeg) center center no-repeat;
     background-size: cover;
 }
+
+.news{
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/Gallery/gallert.jpeg) center center no-repeat;
+    background-size: cover;
+}
 .corporate{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/Insurance.jpeg) center center no-repeat;
     background-size: cover;
